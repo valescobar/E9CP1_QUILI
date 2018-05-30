@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+}
+
+.images__image {
+	width: 25%;
+	margin: 0;
+	float: left;
+}
+
+.links__link {
+	text-decoration: none;
+}
+
+.meals {
+	text-align: center;
+	padding: 0;
+}
+
+.meals__meal {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin: 1em;
+}
+
+.meals__link {
+	display: block;
+	position: relative;
+	width: 400px;
+	height: 400px;
+}
+
+.meals__img {
+	width: 100%;
+}
+
+.social {
+	background-color: rgba(255,255,255,.75);
+	padding: 5px 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 1em;
+}
+
+.social__element {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.social__btn {
+	border: none;
+	background: none;
+	font-size: 1.2em;
+	color: tomato;
+}
+
+.social__btn:hover {
+	color: red;
+}
+
+.social__like--clicked {
+	color: green;
+	text-shadow: 0 1px 7px rgba(255,255,0,1);
+}
+
+.social__like--clicked:hover {
+	color: #61b94c;
+}
